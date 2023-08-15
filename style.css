@@ -11,11 +11,12 @@ background-color: black;
 .container{
     color:aqua;
 }
- .image{
-    margin-top: 220px;
+.row{
+    margin-top: 100px;
 }
+
 .heading{
-margin-top: 300px;
+margin-top:50px
 }
 .icons{
     text-align: center;
@@ -28,4 +29,13 @@ margin-top: 300px;
 a{
     margin: 0 10px;
     padding: 30px 0;
+}
+.navbar{
+    background: #506F86;
+}
+.navbar-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    \
+    
 }
