@@ -36,6 +36,17 @@ a{
 .navbar-text{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
-    \
-    
+
+}
+.about{
+    text-align: center;
+    color:  aqua;
+    margin-top: 20px;
+}
+.web{
+    margin-top: 10px;
+   margin-left: 150px;
+}
+.btn{
+margin: 7px 0;
 }
