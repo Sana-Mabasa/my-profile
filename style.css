@@ -2,11 +2,18 @@
 
 :root{
     --main-font:'Libre Franklin', sans-serif;
-
 }
 body{
-
-    max-width: 1200px;
-    border: 1px solid plum;
+background-color: black;
     margin: 0 auto;
+    
+}
+.container{
+    color:aqua;
+}
+ .image{
+    margin-top: 220px;
+}
+.heading{
+margin-top: 300px;
 }
