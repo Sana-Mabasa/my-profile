@@ -1,0 +1,12 @@
+/* */
+
+:root{
+    --main-font:'Libre Franklin', sans-serif;
+
+}
+body{
+
+    max-width: 1200px;
+    border: 1px solid plum;
+    margin: 0 auto;
+}
