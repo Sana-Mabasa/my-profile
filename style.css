@@ -50,3 +50,14 @@ a{
 .btn{
 margin: 7px 0;
 }
+.project{
+    text-align: center;
+    color: white;
+}
+.images-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    background-color: white;
+}
