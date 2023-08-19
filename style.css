@@ -1,13 +1,24 @@
 /* */
 
 :root{
-    --main-font:'Libre Franklin', sans-serif;
+    --main-font:'Montserrat', sans-serif;
+    --bg-color:  rgba(255, 255, 255, 0.1);
+   
 }
 body{
 background-image: url(WEB/BACKGROUND.jpg);
 background-size: cover;
 background-repeat: no-repeat;
     margin: 0 auto;
+    
+}
+.sana{
+    font-family: var(--main-font);
+    font-size: 60px;
+}
+.front-end{
+    font-family: var(--main-font);
+    font-size: 40px;
     
 }
 .container{
@@ -37,7 +48,7 @@ a{
     padding: 5px 0;
 }
 .navbar{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color:var(--bg-color);
 padding: 0px;
 color: white;
 }
@@ -54,7 +65,7 @@ color: white;
 }
 .p-about{
     color: white;
-    margin-left: 20px;
+    margin-left: 20px;}
 
 .web{
     margin-top: 10px;
@@ -64,14 +75,80 @@ color: white;
 margin: 7px 0;
 }
 .project{
-    text-align: center;
+     color: white;
+   margin-left: 50px;
 }
 
 .images-content{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:300px;
+    max-width: 300px;
     background-color: white;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
+
+.calculator {
+    position: absolute;
+    left: 355px;
+    top: 190px;
+    color: White;
+    
+  }
+  .portfolio-website{
+    position:absolute;
+    top: 190px;
+    right:160px;
+    color: white;
+  }
+  .weather{
+    position: absolute;
+    left: 355px;
+   top: 459px;
+   color: white;
+  }
+  .anime{
+    position: absolute;
+    top: 455px;
+    right:190px;
+    color: white;
+  }
+  .contact{
+    margin-top: 50px;
+  }
+  #name ,#email-address , #message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    background-color: var(--bg-color);
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  #send{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--bg-color);
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 20px;
+    width: 80px;
+  }
+ #link ,#insta ,#fb , #git {
+    background-color: var(--bg-color);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 20px;
+    
+ }
+ #icons{
+    color:white;
+    font-size: 20px;
+ }
