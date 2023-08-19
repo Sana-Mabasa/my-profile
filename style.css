@@ -15,10 +15,24 @@ background-repeat: no-repeat;
 .sana{
     font-family: var(--main-font);
     font-size: 60px;
+    margin-bottom: 0;
+    font-weight: bold;
 }
 .front-end{
     font-family: var(--main-font);
     font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top:0;
+}
+h4{
+    font-family: var(--main-font);
+    font-size:38px;
+font-weight: bold;
+}
+p{
+    font-family: var(--main-font);
+    font-size: 20px;
     
 }
 .container{
@@ -111,7 +125,7 @@ margin: 7px 0;
   .anime{
     position: absolute;
     top: 455px;
-    right:190px;
+    right:160px;
     color: white;
   }
   .contact{
@@ -151,4 +165,8 @@ margin: 7px 0;
  #icons{
     color:white;
     font-size: 20px;
+ }
+ .skills
+ {
+    margin-left: 30px;
  }
