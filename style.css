@@ -35,6 +35,15 @@ p{
     font-size: 20px;
     
 }
+.nav-item{
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 25px;
+}
+.home1,.contact1 , .about1 , .project1{
+    text-decoration: underline;
+    
+}
 .container{
     color:white ;
 }
@@ -87,6 +96,10 @@ color: white;
 }
 .btn{
 margin: 7px 0;
+background-color: var(--bg-color);
+color: white;
+padding: 1px 10px;
+
 }
 .project{
      color: white;
@@ -102,32 +115,15 @@ margin: 7px 0;
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.images-content:hover{
+    transform: scale(1.3);
+}
+.projects-heading{
+    font-family: var(--main-font);
+    font-size: 20px;
+}
 
-.calculator {
-    position: absolute;
-    left: 355px;
-    top: 190px;
-    color: White;
-    
-  }
-  .portfolio-website{
-    position:absolute;
-    top: 190px;
-    right:160px;
-    color: white;
-  }
-  .weather{
-    position: absolute;
-    left: 355px;
-   top: 459px;
-   color: white;
-  }
-  .anime{
-    position: absolute;
-    top: 455px;
-    right:160px;
-    color: white;
-  }
+  
   .contact{
     margin-top: 50px;
   }
@@ -169,4 +165,14 @@ margin: 7px 0;
  .skills
  {
     margin-left: 30px;
+ }
+ .certification{
+    padding: 10px;
+    border: 1px solid #312F57;
+    background-color: #312F57;
+    border-radius: 7px;
+    margin-left: 10px;
+ }
+ .certification:hover{
+   transform: scale(1.3);
  }
