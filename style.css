@@ -160,6 +160,12 @@ padding: 1px 10px;
     font-size: 20px;
     font-family: var(--main-font);
   }
+  #thankYou{
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 45px;
+    color:white;
+  }
   
   #send{
     margin-top: 10px;
